@@ -371,7 +371,8 @@ void loop(void) {
   u8g2.setFont(u8g2_font_ncenB08_tr);	// choose a suitable font
   //u8g2.drawStr(0,10,"Hello World!");	// write something to the internal memory
 
-
+  u8g2.setFontMode(U8G2_FONT_MODE_TRANSPARENT);	// choose a suitable font
+  
   //u8g2.drawStr( 0, 0, "drawRFrame/Box");
   //u8g2.drawRBox(50, 10,25,40, 3);
 
